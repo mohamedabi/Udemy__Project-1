@@ -11,11 +11,11 @@
   <body >
 
     <section class="topnav">
-      <a href="#home" class="active" >Pizza la Code</a>
+      <a href="#home" class="active" id="logo1" >Pizza la Code</a>
 
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
-      <a href="#angebot">Angebot</a>
+      <a href="Angebot.html">Angebot</a>
       <a href="#home" href="#home">Home</a>
 
     </section>
@@ -27,18 +27,17 @@
     <br />
 <section id="unhead">
   <h3 >Say A Code  And Take A  Free Pizza !!</h3>
-  <h3> Pizza list:</h3>
 
 </section>
+<h3 class="plist"> Pizza list:</h3>
 
-<table border="1px;">
+<table border="1px;" >
   <thead >
 <tr >
       <th width="200px;">Name</th>
       <th width="100px;">ingredients</th>
       <th width="100px;">Size</th>
       <th width="100px;">Price</th>
-      <th width="10px;">choose</th>
 
 </tr>
   </thead>
@@ -49,9 +48,7 @@
       <td>Tomatensauce, Käse, grünen Peperoni</td>
       <td><li>Mittle</li><li>Familie</li></td>
       <td><li>8$</li><li>12$</li></td>
-      <td><input type="checkbox" name="Choose" value="Mittle" >Mittle <br />
-          <input type="checkbox" name="Choose" value="Mittle" >Familie
-      </td>
+
 
     </tr>
     <tr>
@@ -60,9 +57,7 @@
       <td>Tomatensauce, Käse, Salami, Paprika, Schinken, Pilze</td>
       <td><li>Familie</li></td>
       <td><li>12$</li></td>
-      <td>
-          <input type="checkbox" name="Choose" value="Mittle" >Familie
-      </td>
+
     </tr>
     <tr>
 
@@ -70,9 +65,7 @@
       <td>Tomatensauce, Käse, Schinken, Ananas</td>
       <td><li>Mittle</li><li>Familie</li></td>
       <td><li>10$</li><li>12$</li></td>
-      <td><input type="checkbox" name="Choose" value="Mittle" >Mittle <br />
-          <input type="checkbox" name="Choose" value="Mittle" >Familie
-      </td>
+
 
     </tr>
     <tr>
@@ -81,10 +74,7 @@
       <td>Tomatensauce, Käse, Thunfisch, Zwiebeln</td>
       <td><li>Mittle</li><li>Familie</li><li>Kinder</li></td>
       <td><li>10$</li><li>12$</li><li>6$</li></td>
-      <td><input type="checkbox" name="Choose" value="Mittle" >Mittle <br />
-          <input type="checkbox" name="Choose" value="Mittle" >Familie <br />
-          <input type="checkbox" name="Choose" value="Mittle" >Kinder
-      </td>
+
     </tr>
     <tr>
 
@@ -92,10 +82,7 @@
       <td>Tomatensauce, Käse</td>
       <td><li>Mittle</li><li>Familie</li><li>Kinder</li></td>
       <td><li>10$</li><li>12$</li><li>6$</li></td>
-      <td><input type="checkbox" name="Choose" value="Mittle" >Mittle <br />
-          <input type="checkbox" name="Choose" value="Mittle" >Familie <br />
-          <input type="checkbox" name="Choose" value="Mittle" >Kinder
-      </td>
+
     </tr>
 
   </tbody>
@@ -104,42 +91,25 @@
 
 <br />
 
-<section>
-  <input type="text" name="allchoose" >&nbsp &nbsp<button type="button" name="button">Bay</button>
-</section>
 
-<section>
 
-  <h2 style="background-color:red; width:100px; text-align:center; ">Aktion</h2>
-    <h5>
+<section id="Aktion">
 
-<ol>
-<ul><li>Free delivery for who around us</li>
-    <li> Do you need some exrta with your Pizza?!, Write hier, it's free.</li>
-</ul>
-<br />
-  &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp<input type="text" name="" placeholder="write Hier..">
-</ol>
-    </h5>
+  <h2>Aktion</h2>
+    <p>Free delivery for who around us</p>
 
 </section>
 
 
-</div>
-
-
-<footer>
-
-
-    <br />
-    <br />
-    <SECTION id="contact-form">
-      <h2>place order</h2>
-      <form method="GET" action="place-order.php">
+ <br />
+ <br />
+ <SECTION id="contact-form">
+   <h2>place order</h2>
+   <form method="GET" action="place-order.php">
 <h4>Delivery:</h4>
 <input name="last-Car" type="radio" value="last-Car" /> Delivery <br />
 <input name="last-Car" type="radio" value="last-Car" />Pickup <br />
-        <h4>Adress:</h4>
+     <h4>Adress:</h4>
 <input name="adress1" placeholder="Adress1" class="lg-input" /><br />
 <input name="Adress2" placeholder="Adress2" class="lg-input"/> <br />
 
@@ -150,32 +120,42 @@
 <br />
 <h4>Size:</h4>
 <select  name="Size">
-  <option value="1"> Mittle </option>
-  <option value="1">Familie </option>
-  <option value="1">  Kinder</option>
+<option value="1"> Mittle </option>
+<option value="1">Familie </option>
+<option value="1">  Kinder</option>
 
 </select>
 
 <br />
 <br />
 <h4> Extra: 1.50 $</h4>
-<input name="yesBMW" type="checkbox" /> Tomatensauce  <br />
-<input name="noBMW" type="checkbox" /> Käse <br />
-<input name="yesBMW" type="checkbox" /> grünen Peperoni  <br />
-<input name="noBMW" type="checkbox" /> Salami <br />
-<input name="yesBMW" type="checkbox" /> Paprika  <br />
-<input name="noBMW" type="checkbox" /> Schinken <br />
-<input name="yesBMW" type="checkbox" /> Pilze  <br />
-<input name="noBMW" type="checkbox" /> Ananas <br />
+<input name="Tomatensauce" type="checkbox" /> Tomatensauce  <br />
+<input name="Käse" type="checkbox" /> Käse <br />
+<input name="grünen Peperoni " type="checkbox" /> grünen Peperoni  <br />
+<input name="Salami" type="checkbox" /> Salami <br />
+<input name="Paprika" type="checkbox" /> Paprika  <br />
+<input name="Schinken" type="checkbox" /> Schinken <br />
+<input name="Pilze" type="checkbox" /> Pilze  <br />
+<input name="Ananas" type="checkbox" /> Ananas <br />
 <br />
 <br />
 <button type="submit">Send</button>
 
- </form>
+</form>
 </section>
 <br />
 <br />
-  <div style="text-align:center;">  &copy; Copyright___2020 </div>
-</footer>
+
+
+
+
   </body>
+
+  <footer>
+
+
+
+    <div style="text-align:center;">  &copy; Copyright___2020 </div>
+  </footer>
+
 </html>

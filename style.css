@@ -5,6 +5,19 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+
+}
+#page2{
+  margin: 0;
+  background-image:  url('https://images7.alphacoders.com/328/thumb-1920-328730.jpg ' );
+
+  background-size: cover;
+  background-position:  right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: black;
+
 }
 
 
@@ -52,14 +65,40 @@ nav > a {
 
 }
 
+.plist{
+  text-indent: 10px;
+}
+table{
+  margin-left: 10px;
 
+}
+#logo1{
+  color: red;
+}
+#logo1:active{
+  color: blue;
+}
+
+
+.lg-input:focus{
+  background: yellow;
+}
+.sm-input:focus{
+  background: yellow;
+}
+
+#logo2{
+  text-decoration-line:   none;
+  text-align: center;
+  color: red;
+margin-left: 40%;
+
+}
 
 .topnav {
 background-color:  #333;
 position:  fixed;
-transition: top 0.5s; /* Transition effect when sliding down (and up) */
 width: 100%;
-top:-50;
 }
 
 .topnav a {
@@ -80,4 +119,23 @@ top:-50;
   float: left;
 
   color: white;
+}
+
+#Aktion{
+  text-align: left;
+  background-color: #9E1924;
+text-indent: 10px;
+  border-radius:  15px;
+  width: 250px;
+  padding-bottom:  1px;
+  margin-left: 10px;
+
+}
+
+#contact-form{
+margin-left: 10px;
+
+}
+h4{
+  font-size: 20px;
 }
