@@ -87,13 +87,7 @@ table{
   background: yellow;
 }
 
-#logo2{
-  text-decoration-line:   none;
-  text-align: center;
-  color: red;
-margin-left: 40%;
 
-}
 
 .topnav {
 background-color:  #333;
@@ -138,4 +132,57 @@ margin-left: 10px;
 }
 h4{
   font-size: 20px;
+}
+
+
+/* Angrbot stylesheet */
+#angebote > img {
+  margin-left: 10px;
+display: inline-block;
+
+}
+#angebote > h1 {
+  text-align: center;
+padding-top: 20px;}
+#cost{
+  display: inline-block;
+  margin-left: 75px;
+background-color: yellow;
+width: 120px;
+font-size: 70px;
+border-radius: 25%;
+}
+#angebote{
+  background-color: #CEC2D1;
+width: 50%;
+border-radius: 25%;
+}
+
+#top{
+margin-left: 75px;
+background-color: yellow;
+width: 475px;
+text-align: center;
+border-radius: 45%;
+color: red;
+font-size: 70px;
+}
+
+#acost1{
+margin-left: 450px;
+margin-top: -170px;
+background-color: red;
+width: 120px;
+font-size: 45px;
+text-align: center;
+border-radius: 100%;
+}
+
+#apizza1{
+margin-left: 10px;
+display: inline-block;
+text-align: center;
+text-transform: capitalize;
+font-size: 20px;
+
 }
