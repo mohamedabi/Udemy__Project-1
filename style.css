@@ -70,8 +70,44 @@ nav > a {
 }
 table{
   margin-left: 10px;
+}
+/* Pizza table */
+.fixed_header{
+    width: 905px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  overflow: auto;
+  height: 100px;
+}
+
+.fixed_header thead {
+  background: black;
+  color:#fff;
+  text-align: center;
 
 }
+
+.fixed_header th, .fixed_header td {
+  padding: 5px;
+  text-align: center;
+  width: 300px;
+}
+
+.fixed_header tbody{
+  display:block;
+  overflow:auto;
+  height:300px;
+  width:100%;
+
+}
+.fixed_header thead tr{
+  display:block;
+
+}
+/* Pizza table */
 #logo1{
   color: red;
 }
